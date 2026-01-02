@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* header css kodları */
+
 .header-section{
 	width: 721px;
 	height:169px;
@@ -121,4 +123,103 @@ table {
 .under:hover{
 text-decoration: underline;
 }
+
+/* first section css kodları */
+
+.first-section{
+	display: flex;
+	flex-direction: row;
+	gap:40px;
+}
+
+.first-section-img{
+	width: 611px;
+	height: 382px;
+	margin-right:100px;
+}
+
+.first-section-right{
+	width: 555px;
+	height: 140px;
+	line-height: 1.5;
+	margin-left: 150px;
+	
+}
+
+.first-section-title{
+	font-size:40px;
+	font-weight: bold;
+	padding-bottom:20px;
+}
+
+.first-section-text{
+	padding-bottom:50px;
+}
+
+.get-started{
+	width: 250px;
+	height: 48px;
+	border:none;
+	border-radius: 10px;
+	color:white;
+	background-color: #F53838;
+	box-shadow:0 20px 20px 0 rgba(245, 56, 56, 0.35);
+	cursor: pointer;
+}
+
+
+/* second section kodları */
+
+.second-section{
+	display: flex;
+	flex-direction: row;
+	width: 1140px;
+	height:200px;
+	margin-top:103px;
+	justify-content: center;
+	align-items: center;
+	margin-left: 150px;	
+}
+
+.icon{
+	
+	width: 24px;
+	height:24px;
+	
+
+	
+}
+
+.icon-bg{
+	background-color: #FFECEC;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+
+
+.icon-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;	
+    gap:36px;
+
+}
+
+hr{
+	height: 125px;
+	color:#EEEFF2;
+	margin:0 80px;
+
+}
+
+
+.second-section-text>h1{
+    font-weight: 900;
+	margin-bottom: 5px;
+}
+
+
+/* third section kodları */
+
 
