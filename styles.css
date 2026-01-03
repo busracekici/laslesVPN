@@ -222,4 +222,46 @@ hr{
 
 /* third section kodları */
 
+.third-section{
+	display:flex;
+	flex-direction: row;
+	margin-left:184px;
+	
+}
 
+.third-section-img{
+	width: 508px;
+	height:414px;
+	margin-right: 169px;
+	margin-top:95px;
+}
+
+.third-section-text-container{
+	width: 383px;
+	margin-top:150px;
+}
+
+.third-section-title{
+font-size:35px;
+font-weight: bold;
+letter-spacing: 1.5;
+line-height: 1.5;
+}
+
+.third-section-text{
+	margin:20px 0;
+	line-height:1.5;
+}
+
+
+.third-section-list{
+    display: flex;
+	margin-bottom:15px;
+}
+
+.third-section-list>img{
+display: flex;
+margin-right:3px;
+align-items: center;
+justify-content: center;
+}
