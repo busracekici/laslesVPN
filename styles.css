@@ -49,6 +49,10 @@ table {
 
 /* header css kodları */
 
+body{
+	background-color: #F6F6F6;
+}
+
 .header-section{
 	width: 721px;
 	height:169px;
@@ -179,6 +183,7 @@ text-decoration: underline;
 	justify-content: center;
 	align-items: center;
 	margin-left: 150px;	
+	box-shadow: 0 20px 20px 0 rgb(0, 0, 0,0.15);
 }
 
 .icon{
