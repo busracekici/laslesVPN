@@ -49,10 +49,6 @@ table {
 
 /* header css kodları */
 
-body{
-	background-color: #F6F6F6;
-}
-
 .header-section{
 	width: 721px;
 	height:169px;
@@ -112,16 +108,16 @@ body{
 
 .sing-in{
 	border:none;
-	background-color: white;
 	cursor: pointer;
+	background-color: #ffffff;
 }
 
 .sing-up{
 	border:1px solid #F53855;
 	color:#F53855;
-	background-color: white;
 	border-radius: 50px;
 	cursor:pointer;
+	background-color: #ffffff;
 }
 
 .under:hover{
@@ -269,4 +265,100 @@ display: flex;
 margin-right:3px;
 align-items: center;
 justify-content: center;
+}
+
+/* fourth section kodları */
+
+.fourth-main-title{
+	margin-top:80px;
+	margin-right:527;
+	font-weight: 400px;
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	margin-bottom:20px;
+	
+}
+
+.fourth-main-text{
+	color:#4F5665;
+	font-size:16px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.fourth-box-cards{
+	 display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+}
+
+
+.fourth-box{
+	width: 330px;
+	height: 760px;
+	color:#0B132A;
+	border:1px solid #DDDDDD;
+	border-radius: 10px;
+	margin:30px 50px 0px;
+	
+}
+
+.fourth-section-one-img,.fourth-section-two-img,.fourth-section-three-img{
+	margin:79px 92px 30px;
+}
+
+.fourth-box-title{
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom:24px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-left: 118px;
+}
+
+.fourth-main-list{
+	margin:0px 69px;
+	color:#4F5665;
+	width: 190px;
+	height: 230px;
+}
+
+.fourth-box-list{
+	display:flex;
+	gap:20px;
+	padding-bottom:10px;
+}
+
+.fourth-box-bottom-title{
+	font-size: 25px;
+	padding:0px 118px 61px;
+}
+
+.fourth-box-bottom-title>span{
+	font-weight: 500;
+}
+
+.fourth-box-bottom-button{
+	width: 177px;
+	height: 45px;
+	color:#F53838;
+	border:1px solid #F53838;
+	border-radius: 50px;
+	margin:0px 76px 50px;
+	background-color: #ffffff;
+}
+
+.fourth-box-bottom-button-third{
+	background-color: #F53838;
+	color:#ffffff;
+	box-shadow:0px 15px 10px rgba(245, 56, 56, 0.35);
+}
+
+
+.fourth-box-three{
+	border-color:#F53838;
 }
