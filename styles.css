@@ -352,7 +352,7 @@ justify-content: center;
 	background-color: #ffffff;
 }
 
-.fourth-box-bottom-button-third{
+.fourth-box-bottom-button:hover{
 	background-color: #F53838;
 	color:#ffffff;
 	box-shadow:0px 15px 10px rgba(245, 56, 56, 0.35);
@@ -412,3 +412,64 @@ justify-content: center;
 
 
 /* sixth section css kodları */
+
+.sixth-section{
+	width: 1300px;
+	height: 590px;
+	
+	
+
+}
+
+.sixth-section-top-title{
+	width: 447px;
+	height: 100px;
+	margin-left:496px;
+	font-size: 35px;
+	letter-spacing: 50;
+	line-height: 1.5;
+}
+
+.sixth-section-top-title>span{
+	padding-left:60px;
+}
+
+.sixth-section-top-text{
+	width: 555px;
+	height: 60px;
+	margin-top:20px;
+	font-size: 16px;
+	letter-spacing: 30;
+	margin-left:442px;
+	line-height: 1.5;
+}
+
+.sixth-section-top-text>span{
+	padding-left:100px;
+}
+
+.sixth-section-bottom{
+	display: block;
+	flex-direction:column ;
+}
+
+
+.sixth-section-bottom-box{
+	width: 400px;
+	height: 230px;
+	border:2px solid #DDDDDD;
+	border-radius: 10px;
+	margin-left: 150px;
+	
+}
+
+
+.sixth-section-bottom-box-title{
+	width: 110px;
+	height:60px;
+	display: block;
+	flex-direction: column;
+}
+
+
+
