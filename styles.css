@@ -532,7 +532,7 @@ justify-content: center;
 .sixth-section-bottom-bottom>img{
 	width: 135px;
 	height:15px;
-	margin-left:150px;
+	margin-left:50px;
 	margin-top:82px;
 }
 
@@ -564,4 +564,54 @@ border-radius: 50%;
 
 .button-left>svg:hover,.button-right>svg:hover{
 	fill:#ffffff;
+}
+
+/* middle-section-css kodları */
+
+.middle-section{
+	width: 1140px;
+	height:233px;
+	border:2px solid #DDDDDD;
+	border-radius: 10px;
+	z-index:456;
+	position: relative;
+	top: 88px;
+	left:150px;
+	display: flex;
+	flex-direction: row;
+}
+
+.middle-section-left{
+	width: 410px;
+	height:116px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 58px;
+	margin-left:70px;
+	margin-right: 340px;
+}
+
+.middle-section-left-title{
+	font-size:35px;
+	font-weight: 500;
+	line-height: 1.5;
+	color:#0B132A;
+	margin-bottom: 20px;
+}
+
+.middle-section-left-text{
+	color:#4F5665;
+	font-size:16px;
+}
+
+.middle-section-button{
+	width: 250px;
+	height: 60px;
+	background-color:#F53838;
+	color:#ffffff;
+	border-radius:10px;
+	box-shadow: 0px 10px 10px rgb(245, 56, 56,0.35);
+	border:none;
+	margin-top: 86px;
+	margin-right: 70px;
 }
