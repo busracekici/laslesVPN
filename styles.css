@@ -576,9 +576,10 @@ border-radius: 50%;
 	z-index:456;
 	position: relative;
 	top: 88px;
-	left:150px;
+	left:120px;
 	display: flex;
 	flex-direction: row;
+	background-color: #ffffff;
 }
 
 .middle-section-left{
@@ -614,4 +615,92 @@ border-radius: 50%;
 	border:none;
 	margin-top: 86px;
 	margin-right: 70px;
+}
+
+/* footer css kodları */
+
+footer{
+	width: 1440px;
+	height:563px;
+	background-color: #F8F8F8;
+	padding-left: 150px;
+	padding-top:180px;
+	display:flex;
+	flex-direction: row;
+}
+
+.logo-name{
+	width:148px;
+	height: 36px;
+	display: flex;
+    align-items: center;
+	gap:6px;
+	
+}
+
+.logo-name>svg{
+	width: 35px;
+	height: 36px;
+	overflow: visible;
+    flex-shrink: 0; 
+}
+
+
+.website-name{
+	font-size: 20px;
+	color:#0B132A;
+	font-weight: bold;
+}
+
+.footer-text{
+	font-size: 16px;
+	line-height: 2;
+	color:#4F5665;
+	margin-top:20px;
+	margin-bottom:30px;
+	width: 340px;
+	height: 61px;
+}
+
+.icons{
+	margin-right: 20px;
+	background-color: #ffffff;
+	box-shadow:4px 4px 6px rgb(79, 86, 101,0.4);
+	border-radius: 50%;
+	width: 50px;
+	height:50px;
+	display: inline-flex;
+	margin-bottom:30px;
+	justify-content: center;
+	align-items: center;
+    
+
+}
+
+.icons>svg{
+	width: 33px;
+	height:33px;
+	fill:#F53838;
+	
+}
+
+
+.footer-right{
+	display: flex;
+	flex-direction: row;
+	gap:126px;
+	margin-left:230px;
+}
+
+.footer-list-title{
+	margin-bottom:20px;
+	font-size: 20px;
+	font-weight: bold;
+	color:#0B132A;
+}
+
+.finished-list>li{
+	margin-bottom: 20px;
+	font-size: 16px;
+	color:#4F5665;
 }
